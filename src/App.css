@@ -1,0 +1,114 @@
+.Appg {
+opacity: 0.9;
+background-image: url(./dog.png);
+background-size: 100%;
+font-family: Superspace ;
+color: white;
+font-size: 8px;
+text-align: center;
+
+}
+
+.Detail {
+  
+  background-color: #F7A8B4; 
+  width:100%; 
+  height:2%; 
+  box-shadow: 0 3px 3px rgba(57, 63, 72, 0.3);
+  position:fixed;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.buttong {
+  background-color: #FC97A6; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: Superspace ;
+  margin: 1% 0.5%;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 24%;
+  box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
+  
+}
+
+input[type=usertext] {
+  font-family: Superspace ;
+  color: rgb(58, 58, 58);
+  font-size: 16px;
+  width: 36%;
+  float:right;
+  padding: 12px 20px;
+  margin: 1% 10%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #FCE5E8;
+  border-radius: 80px;
+  box-shadow: 2px 2px 2px rgba(57, 63, 72, 0.3);
+}
+
+input[type=text1] {
+  font-family: Superspace ;
+  color: rgb(58, 58, 58);
+  font-size: 16px;
+  width: 57%;
+  float:right;
+  padding: 12px 20px;
+  margin: 1% 10%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #FCE5E8;
+  border-radius: 80px;
+  box-shadow: 2px 2px 2px rgba(57, 63, 72, 0.3);
+}
+
+input[type=password] {
+  width: 36%;
+  color: rgb(58, 58, 58);
+  font-size: 16px;
+  float:right;
+  padding: 12px 20px;
+  margin: 1% 10%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #FCE5E8;
+  border-radius: 80px;
+  box-shadow: 2px 2px 2px rgba(57, 63, 72, 0.3);
+}
+
+.holder_wrap{
+    position:relative;
+    margin:auto;
+    display:block;
+    height:1200px; /* กำหนดความสูงส่วนพื้นที่คลุมเนื้อหาทั้งหมด bg */
+    
+}
+.holder_wrap_img{
+  position:absolute;/* กำหนดการจัดตำแหน่งส่วนพื้นที่คลุมเนื้อหารุปและข้อความซ้อนทับ */
+    
+}
+.holder_wrap_img img{
+    position:relative; /* กำหนดการจัดตำแหน่งของรูป */
+    
+}
+
+.inner_position_right{
+  position:absolute;
+  display:block;  
+  background-color:#D89898; 
+  opacity: 0.7;  
+  height:100%;/* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+  widows: 690px;; /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ */
+  top:0px; /* css กำหนดชิดด้านบน  */
+  right:-409px; /* css กำหนดชิดขวา  */
+  
+  
+}

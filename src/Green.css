@@ -34,7 +34,7 @@
 
   
   input[type=textg2] {
-    width: 150%;
+    width: 180%;
     height: 150px;
     float:center;
     padding: 12px 20px;
@@ -90,6 +90,10 @@
     border-radius: 12px;
     box-shadow: 2px 3px 3px rgba(57, 63, 72, 0.3);
   }
+
+
+
+
 
 
 
